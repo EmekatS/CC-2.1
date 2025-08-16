@@ -5,6 +5,7 @@
     --secondary: #f08383;
     --accent: #f94646;
     --text: #7e7e7e;
+    --bg-img: url("./assets/images/whiteBg.jpg");
 }
 
 @layer base{
@@ -12,6 +13,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    main{
+        background-image: var(--bg-img);
+        width: 100%;
+        /* height: 100vh; */
+        padding: 10px 40px;
     }
     h1{
         font-family: "Poppins";
@@ -33,7 +40,8 @@
     p{
         color: var(--text);
         font-family: "Patrick Hand";
-        font-size: 1.5rem;
+        font-size: 1rem;
+        text-align: center;
     }
     button{
         width: 100%;
@@ -49,5 +57,17 @@
     button:hover{
         box-shadow: none;
         transform: translateX(5px) translateY(5px);
+    }
+    .cancel-btn{
+        transform: scaleX(-1);
+    }
+    .step-bar{
+        width: 60px;
+        height: 15px;
+        border-radius: 20px;
+        background: var(--primary);
+    }
+    a{
+        color: var(--primary);
     }
 }
