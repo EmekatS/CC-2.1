@@ -17,12 +17,12 @@
     main{
         background-image: var(--bg-img);
         width: 100%;
-        /* height: 100vh; */
+        height: 100vh;
         padding: 10px 40px;
     }
     h1{
         font-family: "Poppins";
-        font-size: clamp(1.8rem, calc(7vw + 1rem), 5rem);
+        font-size: clamp(1.8rem, calc(6vw + 1rem), 5rem);
         font-weight: 900;
         text-align: center;
         background: linear-gradient(to right, #f06090, #f08383, #f94646);
