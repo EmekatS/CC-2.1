@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="flex-center flex-col gap-[10px]">
+    <main class="flex-center flex-col gap-[10px] h-[100vh]">
         <div class="cancel flex justify-start w-full">
             <a href="./index.html">
                     <lord-icon
@@ -23,21 +23,21 @@
             </a>
         </div>
         <div class="pagination flex-center w-full space-x-2">
-            <div class="step-bar active"></div>
+            <div class="step-bar bg-[var(--primary)]"></div>
             <div class="step-bar"></div>
             <div class="step-bar"></div>
             <div class="step-bar"></div>
             <div class="step-bar"></div>
         </div>
-        <form action="#" class="flex flex-col">
-            <div class="step flex flex-col space-y-5">
+        <form action="#" class="flex flex-col w-full">
+                <div class="step flex-center flex-col space-y-5">
                 <div class="form-head">
-                    <h1 style="font-size: 1.7em;">Create your Account</h1>
+                    <h1>Create your Account</h1>
                     <p>Create an account and get started with us now</p>
                 </div>
-                <div class="space-y-2">
-                    <div class="input-field flex flex-col space-y-6">
-                        <input type="text" placeholder="Full Name" class="bg-[#FFF0F6] p-5 rounded-[100px] border-none">
+                <div class="space-y-2 w-full">
+                    <div class="input-field flex flex-col space-y-6 w-full">
+                        <input type="text" placeholder="Full Name" class="bg-[#FFF0F6] p-5 rounded-[100px] border-none w-full">
                         <select class="bg-[#FFF0F6] p-5 rounded-[100px] appearance-none w-full text-[7e7e7e]">
                             <option value="">Gender</option>
                             <option value="male">Male</option>
@@ -49,38 +49,16 @@
                         <p class="cursor-pointer" style="font-size: 1rem;">Terms and Conditions</p>
                     </div>
                 </div>
-                <div class="space-y-3 flex flex-col w-full">
-                    <button>Next</button>
-                    <div class="w-full flex flex-col">
-                        <p>Don't have an account?</p>
-                        <a href="./sign-in.html" class="text-center">Sign In</a>
-                    </div>
-                </div>
             </div>
-            <!-- <div class="step flex flex-col space-y-5">
-                <div class="form-head">
-                    <h1 style="font-size: 1.7em;">Educational Details</h1>
-                    <p>Dw its not an exam XD</p>
-                </div>
-                <div class="space-y-2">
-                    <div class="input-field flex flex-col space-y-6">
-                        <select class="bg-[#FFF0F6] p-5 rounded-[100px] appearance-none w-full text-[7e7e7e]">
-                            <option value="">University Name</option>
-                        </select>
-                        <select class="bg-[#FFF0F6] p-5 rounded-[100px] appearance-none w-full text-[7e7e7e]">
-                            <option value="">Course Program</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="space-y-3 flex flex-col w-full">
-                    <button>Next</button>
-                    <div class="w-full flex flex-col">
-                        <p>Don't have an account?</p>
-                        <a href="./sign-in.html" class="text-center">Sign In</a>
-                    </div>
-                </div>
-            </div> -->
+            
         </form>
+        <div class="space-y-3 flex flex-col w-full">
+            <a href="edu-details.html" class="btn">Next</a>
+            <div class="w-full flex flex-col">
+                <p>Don't have an account?</p>
+                <a href="./sign-in.html" class="text-center">Sign In</a>
+            </div>
+        </div>
     </main>
     <script src="./script.js"></script>
     <script src="https://cdn.lordicon.com/lordicon.js"></script>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="flex-center flex-col gap-[10px] h-[100vh]">
+        <div class="cancel flex justify-start w-full">
+            <a href="./index.html">
+                    <lord-icon
+                    src="https://cdn.lordicon.com/hsetlwbn.json"
+                    trigger="loop"
+                    delay="1000"
+                    state="in-reveal"
+                    colors="primary:#f06090,secondary:#c71f16"
+                    style="width:40px;height:40px"
+                    class="cancel-btn">
+                </lord-icon>
+            </a>
+        </div>
+        <div class="pagination flex-center w-full space-x-2">
+            <div class="step-bar bg-[var(--primary)]"></div>
+            <div class="step-bar bg-[var(--primary)]"></div>
+            <div class="step-bar bg-[var(--primary)]"></div>
+            <div class="step-bar"></div>
+            <div class="step-bar"></div>
+        </div>
+        <form action="#" class="flex flex-col w-full">
+                <div class="step flex-center flex-col space-y-5">
+                    <div class="form-head">
+                        <h1>Profile Information</h1>
+                        <p>Tell people about yourself, let them know the real you</p>
+                    </div>
+                    <div class="space-y-2 w-full">
+                        <div class="input-field flex flex-col space-y-6">
+                            <textarea class="bg-[#FFF0F6] p-5 rounded-[20px] h-[150px]">Bio</textarea>
+                            <select class="bg-[#FFF0F6] p-5 rounded-[100px] appearance-none w-full text-[7e7e7e]">
+                                <option value="">Location</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
+            <div class="space-y-3 flex flex-col w-full">
+                <div class="flex space-x-5">
+                    <a href="edu-details.html" class="btn bg-[var(--bg)] text-[var(--accent)]">Prev</a>
+                    <a href="profile-photos.html" class="btn">Next</a>
+                </div>
+                <div class="w-full flex flex-col">
+                    <p>Don't have an account?</p>
+                    <a href="./sign-in.html" class="text-center">Sign In</a>
+                </div>
+            </div>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</body>
+</html>

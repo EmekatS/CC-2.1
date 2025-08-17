@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="flex-center flex-col gap-[10px]">
+        <div class="cancel flex justify-start w-full">
+            <a href="./index.html">
+                    <lord-icon
+                    src="https://cdn.lordicon.com/hsetlwbn.json"
+                    trigger="loop"
+                    delay="1000"
+                    state="in-reveal"
+                    colors="primary:#f06090,secondary:#c71f16"
+                    style="width:40px;height:40px"
+                    class="cancel-btn">
+                </lord-icon>
+            </a>
+        </div>
+        <div class="pagination flex-center w-full space-x-2">
+            <div class="step-bar bg-[var(--primary)]"></div>
+            <div class="step-bar bg-[var(--primary)]"></div>
+            <div class="step-bar bg-[var(--primary)]"></div>
+            <div class="step-bar bg-[var(--primary)]"></div>
+            <div class="step-bar"></div>
+        </div>
+        <form action="#" class="flex flex-col w-full">
+                <div class="step flex-center flex-col space-y-5">
+                    <div class="form-head">
+                        <h1>Profile Photos</h1>
+                        <p>Helps skip passed the wyll phase of things</p>
+                    </div>
+                    <div class="flex-center flex-col space-y-5">
+                        <div class="rounded-full bg-[#FFF0F6] w-[150px] h-[150px] flex flex-center">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/kdduutaw.json"
+                                trigger="loop"
+                                delay="2000"
+                                state="hover-looking-around"
+                                colors="primary:#ffffff,secondary:#ffffff"
+                                style="width:100px;height:100px">
+                            </lord-icon>
+                        </div>
+                        <form action="#">
+                            <input type="file" class="file:bg-transparent file:px-6 file:py-[10px] file:border-none file:rounded-full file:text-white file:cursor-pointer text-white bg-[#f06090] p-2 flex justify-center items-center rounded-[100px] shadow-[5px_5px_0px_#f94646] transition-all hover:shadow-none hover:translate-x-[5px] hover:translate-y-[5px]">
+                        </form>
+                        <div class="flex space-x-4">
+                            <div class="box w-[100px] h-[100px] bg-[var(--bg)] flex justify-center items-center">
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/vjgknpfx.json"
+                                    trigger="loop"
+                                    delay="2000"
+                                    colors="primary:#ffffff,secondary:#ffffff"
+                                    style="width:50px;height:50px">
+                                </lord-icon>
+                            </div>
+                            <div class="box w-[100px] h-[100px] bg-[var(--bg)] flex justify-center items-center">
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/vjgknpfx.json"
+                                    trigger="loop"
+                                    delay="2000"
+                                    colors="primary:#ffffff,secondary:#ffffff"
+                                    style="width:50px;height:50px">
+                                </lord-icon>
+                            </div>
+                            <div class="box w-[100px] h-[100px] bg-[var(--bg)] flex justify-center items-center">
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/vjgknpfx.json"
+                                    trigger="loop"
+                                    delay="2000"
+                                    colors="primary:#ffffff,secondary:#ffffff"
+                                    style="width:50px;height:50px">
+                                </lord-icon>
+                            </div>
+                        </div>
+                        <form action="#">
+                            <input type="file" class="file:bg-transparent file:px-6 file:py-[10px] file:border-none file:rounded-full file:text-white file:cursor-pointer text-white bg-[#f06090] p-2 flex justify-center items-center rounded-[100px] shadow-[5px_5px_0px_#f94646] transition-all hover:shadow-none hover:translate-x-[5px] hover:translate-y-[5px]">
+                        </form>
+                    </div>
+                </div>
+                
+            </form>
+            <div class="space-y-3 flex flex-col w-full">
+                <div class="flex space-x-5">
+                    <a href="profile-information.html" class="btn bg-[var(--bg)] text-[var(--accent)]">Prev</a>
+                    <a href="finish.html" class="btn">Next</a>
+                </div>
+                <div class="w-full flex flex-col">
+                    <p>Don't have an account?</p>
+                    <a href="./sign-in.html" class="text-center">Sign In</a>
+                </div>
+            </div>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</body>
+</html>
