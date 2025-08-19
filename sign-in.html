@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="flex-center flex-col gap-[10px]">
+        <div class="cancel flex justify-start w-full">
+            <a href="./index.html">
+                    <lord-icon
+                    src="https://cdn.lordicon.com/hsetlwbn.json"
+                    trigger="loop"
+                    delay="1000"
+                    state="in-reveal"
+                    colors="primary:#f06090,secondary:#c71f16"
+                    style="width:40px;height:40px"
+                    class="cancel-btn">
+                </lord-icon>
+            </a>
+        </div>
+        <form action="intrests.html" class="flex flex-col w-full">
+                <div class="step flex-center flex-col space-y-5">
+                    <div class="form-head">
+                        <h1>Set up your Account</h1>
+                        <p>final step, let's get it</p>
+                    </div>
+                    <div class="space-y-2 w-full">
+                        <div class="input-field flex flex-col space-y-6">
+                            <input type="email" placeholder="E Mail"  class="bg-[#FFF0F6] p-5 rounded-[100px] border-none">
+                            <input type="password" placeholder="Password"  class="bg-[#FFF0F6] p-5 rounded-[100px] border-none">
+                        </div>
+                    </div>
+                    <div class="space-y-3 flex flex-col w-full">
+                        <div class="flex space-x-5">
+                            <button type="submit" class="finish">Sign Up</button>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <p>Don't have an account?</p>
+                            <a href="./sign-in.html" class="text-center">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</body>
+</html>
