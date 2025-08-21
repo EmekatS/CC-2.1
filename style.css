@@ -97,4 +97,8 @@
         box-shadow: none;
         transform: translateX(5px) translateY(5px);
     }
+    .intrest{
+        background: #FFF0F6;
+        border-radius: 100px;
+    }
 }
