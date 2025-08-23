@@ -7,6 +7,7 @@
     --bg: #FFF0F6;
     --text: #7e7e7e;
     --bg-img: url("./assets/images/whiteBg.jpg");
+    --gradient: linear-gradient(to right, #f06090, #f08383, #f94646);
 }
 
 @layer base{
@@ -25,7 +26,7 @@
         font-size: 1.7em;
         font-weight: 900;
         text-align: center;
-        background: linear-gradient(to right, #f06090, #f08383, #f94646);
+        background: var(--gradient);
         background-size: 200%;
         background-clip: text;
         -webkit-background-clip: text;
@@ -100,5 +101,8 @@
     .intrest{
         background: #FFF0F6;
         border-radius: 100px;
+    }
+    .grad{
+        background: var(--gradient);
     }
 }
